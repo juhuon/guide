@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 100px; /* 为了确保效果，尝试改为内边距 */
+    box-sizing: border-box; /* 确保内边距不会影响元素的最终大小 */
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px; /* 可以根据实际效果进行调整 */
+}
+
+.search-container input[type="text"] {
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+.articles-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px; /* 调整文章容器的上边距以提供更多空间 */
+}
+
+.articles-container h2 {
+    text-align: center;
+}
+
+.articles-container a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
